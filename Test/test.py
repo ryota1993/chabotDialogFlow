@@ -28,7 +28,7 @@ class Test(Resource):
         "buttons": [
           {
             "text": "button text",
-            "postback": "https://example.com/path/for/end-user/to/follow"
+            "postback": "https://photos.app.goo.gl/4h7LecqY9Xo9b9WE6"
           }
         ]
       }
