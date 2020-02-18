@@ -8,6 +8,7 @@ from apis import api
 ######  Flask&API settings  ############
 app = Flask(__name__)
 
+app.config['JSON_SORT_KEYS'] = False
 #app.config["SECRET_KEY"] = "secret"
 #app.config['CORS_HEADERS'] = 'Content-Type'
 #app.config['JWT_SECRET_KEY'] = 'super-secret-fishing'
