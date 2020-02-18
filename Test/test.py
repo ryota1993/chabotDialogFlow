@@ -15,5 +15,4 @@ class Test(Resource):
     def post(self):
 
         test = request.get_json()
-        return make_response(jsonify({"speech":"API request from DialogFlow received",
-        "displayText":"Hi just testing Flask API"}),200)
+        return make_response(jsonify({"speech":"API request from DialogFlow received","displayText":"Hi just testing Flask API",}),200)
