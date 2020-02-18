@@ -22,9 +22,9 @@ class Test(Resource):
   "fulfillmentMessages": [
     {
       "card": {
-        "title": "card title",
-        "subtitle": "card text",
-        "imageUri": "https://example.com/images/example.png",
+        "title": "fish AI",
+        "subtitle": "gonzui",
+        "imageUri": "https://github.com/ryota1993/chabotDialogFlow/tree/master/gonzui_output.jpg",
         "buttons": [
           {
             "text": "button text",
