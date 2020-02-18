@@ -15,4 +15,23 @@ class Test(Resource):
     def post(self):
 
         test = request.get_json()
-        return make_response(jsonify({"speech":"API request from DialogFlow received","displayText":"Hi just testing Flask API",}),200)
+        
+        #return make_response(jsonify({"speech":"API request from DialogFlow received","displayText":"Hi just testing Flask API",}),200)
+        return make_response({
+  "fulfillmentText": "This is a text response",
+  "fulfillmentMessages": [
+    {
+      "card": {
+        "title": "card title",
+        "subtitle": "card text",
+        "imageUri": "https://example.com/images/example.png",
+        "buttons": [
+          {
+            "text": "button text",
+            "postback": "https://example.com/path/for/end-user/to/follow"
+          }
+        ]
+      }
+    }
+  ]
+},200)
