@@ -16,4 +16,4 @@ class Test(Resource):
 
         test = request.get_json()
         return make_response(jsonify({"speech":"API request from DialogFlow received",
-        "displayText":test}),200)
+        "displayText":"Hi just testing Flask API"}),200)
