@@ -24,7 +24,7 @@ class Test(Resource):
       "card": {
         "title": "fish AI",
         "subtitle": "gonzui",
-        "imageUri": "https://github.com/ryota1993/chabotDialogFlow/tree/master/gonzui_output.jpg",
+        "imageUri": "https://photos.app.goo.gl/4h7LecqY9Xo9b9WE6",
         "buttons": [
           {
             "text": "button text",
